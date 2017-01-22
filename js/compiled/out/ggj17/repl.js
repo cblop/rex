@@ -1,0 +1,26 @@
+// Compiled by ClojureScript 1.9.229 {}
+goog.provide('ggj17.repl');
+goog.require('cljs.core');
+goog.require('re_frame.core');
+ggj17.repl.db = re_frame.core.subscribe.call(null,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"db","db",993250759)], null));
+new cljs.core.Keyword(null,"scene","scene",1523800415).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+new cljs.core.Keyword(null,"questions","questions",1226225380).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+ggj17.repl.scene = re_frame.core.subscribe.call(null,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"scene","scene",1523800415)], null));
+new cljs.core.Keyword(null,"characters","characters",-163867197).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.scene));
+new cljs.core.Keyword(null,"character","character",380652989).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+new cljs.core.Keyword(null,"foot","foot",-487226607).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+new cljs.core.Keyword(null,"objects","objects",2099713734).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+new cljs.core.Keyword(null,"dialogue","dialogue",1647952462).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+new cljs.core.Keyword(null,"realness","realness",-251186993).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ggj17.repl.db));
+cljs.core.keys.call(null,cljs.core.deref.call(null,ggj17.repl.db));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-character","set-character",-552195779),"characters/rex.svg"], null));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-objects","set-objects",1929562802),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"name","name",1843675177),"foot",new cljs.core.Keyword(null,"file","file",-1269645878),"objects/foot.svg",new cljs.core.Keyword(null,"x","x",2099068185),"80%",new cljs.core.Keyword(null,"y","y",-1757859776),"70%",new cljs.core.Keyword(null,"width","width",-384071477),"7%",new cljs.core.Keyword(null,"action","action",-811238024),(function (){
+return alert("Foot!");
+})], null)], null)], null));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-dialogue","set-dialogue",-1940240819),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"character","character",380652989),new cljs.core.Keyword(null,"rex","rex",-1105729361),new cljs.core.Keyword(null,"file","file",-1269645878),"characters/rex-face.svg",new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"question","question",-1411720117),new cljs.core.Keyword(null,"id","id",-1388402092),(5)], null)], null));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-dialogue","set-dialogue",-1940240819),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"character","character",380652989),new cljs.core.Keyword(null,"sam","sam",-966219316),new cljs.core.Keyword(null,"file","file",-1269645878),"characters/sam-face.svg",new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"answer","answer",-742633163),new cljs.core.Keyword(null,"id","id",-1388402092),(0)], null)], null));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-dialogue","set-dialogue",-1940240819),null], null));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-dialogue","set-dialogue",-1940240819),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"character","character",380652989),new cljs.core.Keyword(null,"adam","adam",991286717),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"answer","answer",-742633163),new cljs.core.Keyword(null,"file","file",-1269645878),"characters/adam-face.svg",new cljs.core.Keyword(null,"id","id",-1388402092),(0)], null)], null));
+re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-dialogue","set-dialogue",-1940240819),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"character","character",380652989),new cljs.core.Keyword(null,"luce","luce",-95293240),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"answer","answer",-742633163),new cljs.core.Keyword(null,"file","file",-1269645878),"characters/scarlett-face.svg",new cljs.core.Keyword(null,"id","id",-1388402092),(0)], null)], null));
+
+//# sourceMappingURL=repl.js.map?rel=1485095884743
